@@ -139,8 +139,8 @@ window.onload = () => {
 			default: 'pl',
 			autoDetect: 'document',
 			translations: {
-				'pl': '/cc/lang/pl.json',
-				'en': '/cc/lang/en.json'
+				'pl': 'https://cdn.jsdelivr.net/gh/olj4m/cookiesv2@latest/cc/lang/pl.json',
+				'en': 'https://cdn.jsdelivr.net/gh/olj4m/cookiesv2@latest/cc/lang/en.json'
 			}
 		}
 	});
