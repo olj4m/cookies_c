@@ -32,7 +32,7 @@
                     "body": [
                         {
                             "name": "cc_cookie",
-                            "domain": "https://itmajlo.pl",
+                            "domain": "domain",
                             "description": "Przechowuje dane dotyczące zgody użytkownika.",
                             "expiration": "1 rok"
                         },
@@ -59,19 +59,19 @@
                     "body": [
                         {
                             "name": "_ga[_customname]",
-                            "domain": "https://itmajlo.pl",
+                            "domain": "domain",
                             "description": "Rejestruje nowy identyfikator, który służy do generowania danych statystycznych dotyczących odwiedzin na stronie internetowej.",
                             "expiration": "1 rok"
                         },
 						{
                             "name": "_gat[_customname]",
-                            "domain": "https://itmajlo.pl",
+                            "domain": "domain",
                             "description": "Plik używany jest do kontrolowania liczby żądań przeglądarki użytkownika do serwera.",
                             "expiration": "1 dzień"
                         },
                         {
                             "name": "_gid",
-                            "domain": "https://itmajlo.pl",
+                            "domain": "domain",
                             "description": "Rejestruje identyfikator, który służy do generowania danych statystycznych dotyczących odwiedzin na stronie internetowej.",
                             "expiration": "1 dzień"
                         }
@@ -92,25 +92,25 @@
                     "body": [
                         {
                             "name": "_fbp",
-                            "domain": "https://itmajlo.pl",
+                            "domain": "domain",
                             "description": "Służy do zapisywania i śledzenia danych o wizytach użytkownika.",
                             "expiration": "3 miesiące"
                         },
 						{
                             "name": "fr",
-                            "domain": "https://itmajlo.pl",
+                            "domain": "domain",
                             "description": "Służy do dostarczania użytkownikom dostosowanych reklam oraz retargetingu.",
                             "expiration": "3 miesiące"
                         },
                         {
                             "name": "IDE",
-                            "domain": "https://itmajlo.pl",
+                            "domain": "domain",
                             "description": "Służy do dostarczania użytkownikom dostosowanych reklam oraz retargetingu.",
                             "expiration": "13 miesięcy (EOG)"
                         },
                         {
                             "name": "_gcl_au",
-                            "domain": "https://itmajlo.pl",
+                            "domain": "domain",
                             "description": "Plik służy do przechowywania danych o interakcjach i śledzenia konwersji.",
                             "expiration": "90 dni"
                         },
