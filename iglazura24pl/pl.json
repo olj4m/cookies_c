@@ -32,15 +32,21 @@
                     "body": [
                         {
                             "name": "cc_cookie",
-                            "domain": "domain",
+                            "domain": "iglazura24.pl",
                             "description": "Przechowuje dane dotyczące zgody użytkownika.",
                             "expiration": "1 rok"
                         },
                         {
                             "name": "_GRECAPTCHA",
-                            "domain": ".google.com",
+                            "domain": "Google",
                             "description": "Służy do ochrony przed spamem.",
                             "expiration": "6 miesięcy"
+                        },
+						{
+                            "name": "psuid",
+                            "domain": "iglazura24.pl",
+                            "description": "",
+                            "expiration": "1 rok"
                         }
                     ]
                 }
@@ -58,20 +64,20 @@
                     },
                     "body": [
                         {
-                            "name": "_ga[_customname]",
-                            "domain": "domain",
+                            "name": "_ga_*",
+                            "domain": "Google Analytics",
                             "description": "Rejestruje nowy identyfikator, który służy do generowania danych statystycznych dotyczących odwiedzin na stronie internetowej.",
                             "expiration": "1 rok"
                         },
 						{
-                            "name": "_gat[_customname]",
-                            "domain": "domain",
+                            "name": "_gat_*",
+                            "domain": "Google Analytics",
                             "description": "Plik używany jest do kontrolowania liczby żądań przeglądarki użytkownika do serwera.",
                             "expiration": "1 dzień"
                         },
                         {
                             "name": "_gid",
-                            "domain": "domain",
+                            "domain": "Google Analytics",
                             "description": "Rejestruje identyfikator, który służy do generowania danych statystycznych dotyczących odwiedzin na stronie internetowej.",
                             "expiration": "1 dzień"
                         }
@@ -92,39 +98,45 @@
                     "body": [
                         {
                             "name": "_fbp",
-                            "domain": "domain",
+                            "domain": "Facebook",
                             "description": "Służy do zapisywania i śledzenia danych o wizytach użytkownika.",
                             "expiration": "3 miesiące"
                         },
 						{
+                            "name": "_fbc",
+                            "domain": "Facebook",
+                            "description": "Służy do zapisywania ostatniej wizyty użytkownika.",
+                            "expiration": "2 lata"
+                        },
+						{
                             "name": "fr",
-                            "domain": "domain",
+                            "domain": "Facebook",
                             "description": "Służy do dostarczania użytkownikom dostosowanych reklam oraz retargetingu.",
                             "expiration": "3 miesiące"
                         },
                         {
                             "name": "IDE",
-                            "domain": "domain",
+                            "domain": "Google DoubleClick",
                             "description": "Służy do dostarczania użytkownikom dostosowanych reklam oraz retargetingu.",
-                            "expiration": "13 miesięcy (EOG)"
+                            "expiration": "2 lata"
                         },
                         {
                             "name": "_gcl_au",
-                            "domain": "domain",
+                            "domain": "Google Ads",
                             "description": "Plik służy do przechowywania danych o interakcjach i śledzenia konwersji.",
-                            "expiration": "90 dni"
+                            "expiration": "Na zawsze"
                         },
                         {
                             "name": "NID",
-                            "domain": ".google.com",
+                            "domain": "Google Ads",
                             "description": "Służy do dostarczania reklam, retargetowania i przechowywania preferencji użytkownika.",
                             "expiration": "6 miesięcy"
                         },
                         {
                             "name": "RUL",
-                            "domain": ".google.com",
+                            "domain": "Google DoubleClick",
                             "description": "Służy do weryfikacji poprawności wyświetlania reklam w witrynie.",
-                            "expiration": "12 miesięcy"
+                            "expiration": "1 rok"
                         }
                     ]
                 }
@@ -138,6 +150,27 @@
                 "title": "Reklamy spersonalizowane",
                 "description": "Zarządza zgodą na wyświetlanie reklam spersonalizowanych.",
                 "linkedCategory": "ad_personalization"
+            },
+			{
+                "title": "Niesklasyfikowane pliki cookie",
+                "description": "Niesklasyfikowane pliki cookie.",
+                "linkedCategory": "unclassified",
+				"cookieTable": {
+                    "headers": {
+                        "name": "Nazwa",
+                        "domain": "Domena",
+                        "description": "Opis",
+                        "expiration": "Czas trwania"
+                    },
+                    "body": [
+						{
+                            "name": "psuid",
+                            "domain": "iglazura24.pl",
+                            "description": "",
+                            "expiration": "1 rok"
+                        }
+                    ]
+                }
             },
             {
                 "title": "Więcej informacji",
