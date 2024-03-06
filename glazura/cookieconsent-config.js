@@ -141,7 +141,7 @@ window.onload = () => {
 			default: 'pl',
 			autoDetect: 'document',
 			translations: {
-				'pl': 'https://cdn.jsdelivr.net/gh/olj4m/cookies_c/iglazura24/pl.json',
+				'pl': 'https://cdn.jsdelivr.net/gh/olj4m/cookies_c/glazura/pl.json',
 			}
 		}
 	});
