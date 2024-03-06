@@ -135,16 +135,13 @@ window.onload = () => {
 			},
 			ad_user_data: {},
 			ad_personalization: {},
-			unclassified: {
-				readOnly: true
-			},
 		},
 
 		language: {
 			default: 'pl',
 			autoDetect: 'document',
 			translations: {
-				'pl': 'https://cdn.jsdelivr.net/gh/olj4m/cookies_c/iglazura24pl/pl.json',
+				'pl': 'https://cdn.jsdelivr.net/gh/olj4m/cookies_c/iglazura24/pl.json',
 			}
 		}
 	});

@@ -151,26 +151,6 @@
                 "description": "Zarządza zgodą na wyświetlanie reklam spersonalizowanych.",
                 "linkedCategory": "ad_personalization"
             },
-			{
-                "title": "Niesklasyfikowane pliki cookie",
-                "description": "Niesklasyfikowane pliki cookie.",
-				"cookieTable": {
-                    "headers": {
-                        "name": "Nazwa",
-                        "domain": "Domena",
-                        "description": "Opis",
-                        "expiration": "Czas trwania"
-                    },
-                    "body": [
-						{
-                            "name": "psuid",
-                            "domain": "iglazura24.pl",
-                            "description": "",
-                            "expiration": "1 rok"
-                        }
-                    ]
-                }
-            },
             {
                 "title": "Więcej informacji",
                 "description": "Jeżeli chcą się Państwo dowiedzieć więcej, zachęcamy do zapoznania się z <a href=\"./polityka-prywatnosci/\" title=\"Polityka prywatności\" target=\"_blank\">Polityką Prywatności</a>."
