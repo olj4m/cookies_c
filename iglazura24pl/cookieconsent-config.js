@@ -162,6 +162,7 @@ function sendCookieEvent() {
 	dataLayer.push({
 		'event': 'CookiesSet'
 	});
+	dataLayer.push({'event': 'CookiesUpdated'});
 	
 	let CookiesSetEvent = new CustomEvent('CookiesSet', { 'detail': CookieConsent.getCookie('categories') });
 
@@ -174,7 +175,6 @@ window.AddCookieSetCallback = function( callback ) {
 		if (typeof callback == 'function' && event.detail) {
 			callback(event.detail);
 			console.log('CookiesSet callback called with data:', event.detail);
-			dataLayer.push({'event': 'CookiesUpdated'});
 		} else {
 			console.log('Invalid data passed to CookiesSet callback:', event);
 		}

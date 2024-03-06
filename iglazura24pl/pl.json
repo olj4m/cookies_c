@@ -154,7 +154,6 @@
 			{
                 "title": "Niesklasyfikowane pliki cookie",
                 "description": "Niesklasyfikowane pliki cookie.",
-                "linkedCategory": "unclassified",
 				"cookieTable": {
                     "headers": {
                         "name": "Nazwa",
